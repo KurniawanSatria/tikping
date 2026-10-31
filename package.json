@@ -1,0 +1,25 @@
+{
+  "name": "tikping",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Discord bot and dashboard that pings a channel the moment a TikTok creator goes live, with no third-party API in between",
+  "license": "MIT",
+  "author": "Kurniawan Satria",
+  "keywords": [
+    "tiktok",
+    "tiktok-live",
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "notifications",
+    "dashboard"
+  ],
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.0"
+  }
+}
